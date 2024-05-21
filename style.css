@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body {
+    margin: 0;
+}
+
+
+.welcome-screen,
+.question-screen,
+.end-screen {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: "Oswald";
+    /*
+    -webkit-text-stroke-width: 2px ;
+    -webkit-text-stroke-color: black;*/
+    background-image: url(img/b0ff1a3520386aacce5cbad2986edc89.jpg);
+    background-size: cover;
+    background-position-x: center;
+    cursor: url(img/magicbag.png), ;
+}
+
+
+
+
+.welcome-screen {
+    flex-direction: column;
+}
+
+
+.question-screen,
+.end-screen {
+    display: none;
+}
+
+/* Button styles */
+.reloadButton,
+.hogwarts-button {
+    display: inline-block; /* Make it an inline-block element */
+    background-color: #282828; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 15px 20px; /* Button padding */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Indicate clickable area */
+    font-family: "Oswald", serif; /* Use the same font as the rest of the page */
+    text-decoration: none; /* Remove underline from text */
+    text-transform: uppercase; /* Convert text to uppercase */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  /* Button hover effect */
+  
+  .hogwarts-button:hover {
+    background-color: #444; /* Darker background on hover */
+  }
+  
+  /* Optional - Add an icon before the button text */
+  
+  .hogwarts-button::before {
+    content: ""; /* Font Awesome icon for a castle (you'll need to include Font Awesome) */
+    font-family: "Oswald";
+    margin-right: 5px; /* Add some space between icon and text */
+  }
+
+
+ 
+
+.reloadButton {
+        background-color: #444; /* Darker background on hover */
+      }
+.reloadButton::before {
+        content: ""; /* Font Awesome icon for a castle (you'll need to include Font Awesome) */
+        font-family: "Oswald";
+        margin-right: 5px; /* Add some space between icon and text */
+    }
+
+ ul li:hover {
+        cursor: pointer;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0; 
+        margin: 0;
+      }
+      
+      /* List item styles */
+      ul li {
+        padding: 10px; /* Add spacing between list items */
+        font-size: 25px; /* Increase font size for list items */
+        font-family:"Oswald" ;
+        border: 3px solid #0adbf6; /* Add a gray border */
+        margin-bottom: 10px;
+        border-radius: 10px
+      }
+h2 {
+    font-size: 40px;
+
+}
